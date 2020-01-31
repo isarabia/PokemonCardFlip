@@ -81,6 +81,12 @@ body {
     bottom: -25px;
     transform: scale(1.7);
   }
+  &__image-evolve--blastoise {
+    position: absolute;
+    width: 250px;
+    bottom: -25px;
+    transform: scale(1.3);
+  }
   &__image-type-2 {
     width: 220px;
     bottom: -25px;
@@ -108,6 +114,12 @@ body {
   }
   &--venusaur {
     background-color: #79A75B;
+  }
+  &--charizard {
+    background-color: #F3713C;
+  }
+  &--blastoise {
+    background-color: rgb(99, 167, 235);
   }
 }
 
@@ -200,6 +212,16 @@ body {
     padding: 5% 15%;
     color: $color-text-pokemon-type;
   }
+  &__static-type--flying {
+    height: 13px;
+    width: 40px;
+    text-align: center;
+    background-color: #89f;
+    font-size: 0.5em;
+    border-radius: 5px;
+    padding: 5% 15%;
+    color: $color-text-pokemon-type;
+  }
   &__static-specie {
     font-family: "Varela Round", sans-serif;
     font-size: 1.1em;
@@ -253,5 +275,8 @@ body {
       image: none;
       color: #79caf9;
     }
+  }
+  .cards-container {
+    margin: 200px;
   }
 }

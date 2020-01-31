@@ -367,5 +367,8 @@ body {
     background-image: none;
     background-color: #79caf9;
   }
+  .cards-container {
+    margin: 200px;
+  }
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=style.css.map */
