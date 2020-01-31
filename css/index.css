@@ -57,7 +57,7 @@ body {
           flex-direction: column;
   height: 700px;
   /* margin: 50px 20px; */
-  width: 300px;
+  width: 500px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transition: all 0.5s linear;
@@ -85,6 +85,14 @@ body {
   position: absolute;
   width: 250px;
   bottom: -25px;
+}
+
+.card-header__image-evolve {
+  position: absolute;
+  width: 250px;
+  bottom: -25px;
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
 }
 
 .card-header__image-type-2 {
@@ -118,6 +126,10 @@ body {
 
 .card-header--squirtle {
   background-color: #63a7eb;
+}
+
+.card-header--venusaur {
+  background-color: #79A75B;
 }
 
 .card-body {
@@ -299,12 +311,28 @@ body {
   border-style: solid;
 }
 
+.base-stats__barchart-bar--rank1 {
+  background-color: #f34444;
+}
+
 .base-stats__barchart-bar--rank2 {
   background-color: #ff7f0f;
 }
 
 .base-stats__barchart-bar--rank3 {
   background-color: #ffdd57;
+}
+
+.base-stats__barchart-bar--rank4 {
+  background-color: #a0e515;
+}
+
+.base-stats__barchart-bar--rank5 {
+  background-color: #23cd5e;
+}
+
+.base-stats__barchart-bar--rank6 {
+  background-color: #00c2b8;
 }
 
 @media all and (max-width: 1140px) {

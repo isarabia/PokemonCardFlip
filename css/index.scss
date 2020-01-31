@@ -52,7 +52,7 @@ body {
   flex-direction: column;
   height: 700px;
   /* margin: 50px 20px; */
-  width: 300px;
+  width: 500px;
   transform-style: preserve-3d;
   transition: all 0.5s linear;
 
@@ -74,6 +74,12 @@ body {
     position: absolute;
     width: 250px;
     bottom: -25px;
+  }
+  &__image-evolve {
+    position: absolute;
+    width: 250px;
+    bottom: -25px;
+    transform: scale(1.7);
   }
   &__image-type-2 {
     width: 220px;
@@ -99,6 +105,9 @@ body {
   }
   &--squirtle {
     background-color: rgb(99, 167, 235);
+  }
+  &--venusaur {
+    background-color: #79A75B;
   }
 }
 
@@ -230,12 +239,12 @@ body {
     border-width: 2px;
     border-style: solid;
   }
-  &__barchart-bar--rank2 {
-    background-color: #ff7f0f;
-  }
-  &__barchart-bar--rank3 {
-    background-color: #ffdd57;
-  }
+  &__barchart-bar--rank1 {background-color: #f34444;}
+  &__barchart-bar--rank2 {background-color: #ff7f0f;}
+  &__barchart-bar--rank3 {background-color: #ffdd57;}
+  &__barchart-bar--rank4 {background-color: #a0e515;}
+  &__barchart-bar--rank5 {background-color: #23cd5e;}
+  &__barchart-bar--rank6 {background-color: #00c2b8;}
 }
 
 @media all and (max-width: 1140px) {
