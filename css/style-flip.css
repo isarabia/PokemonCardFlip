@@ -31,3 +31,8 @@
     backface-visibility: hidden;
     transform: rotateY(180deg);
 }
+@media all and (max-width: 1360px) {
+    body {
+        text-align: center;
+    }
+}

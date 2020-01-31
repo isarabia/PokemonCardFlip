@@ -1,4 +1,3 @@
-/* CSS del niñato + modificaciones */
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans|Varela+Round&display=swap");
 
 @font-face {
@@ -51,14 +50,9 @@ body {
   display: flex;
   flex-direction: column;
   height: 700px;
-  /* margin: 50px 20px; */
   width: 500px;
   transform-style: preserve-3d;
   transition: all 0.5s linear;
-
-  /* &:hover {
-    transform: scale(1.17);
-  } */
 }
 
 .card-header {
@@ -275,8 +269,6 @@ body {
       image: none;
       color: #79caf9;
     }
-  }
-  .cards-container {
-    margin: 200px;
+    background-image: linear-gradient(#79A75B, #F3713C, rgb(99, 167, 235));
   }
 }

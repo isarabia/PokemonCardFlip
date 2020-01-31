@@ -1,5 +1,3 @@
-@charset "UTF-8";
-/* CSS del niñato + modificaciones */
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans|Varela+Round&display=swap");
 @font-face {
   font-family: Pokemon;
@@ -56,15 +54,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 700px;
-  /* margin: 50px 20px; */
   width: 500px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
-  /* &:hover {
-    transform: scale(1.17);
-  } */
 }
 
 .card-header {
@@ -366,9 +360,8 @@ body {
   body {
     background-image: none;
     background-color: #79caf9;
-  }
-  .cards-container {
-    margin: 200px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#79A75B), color-stop(#F3713C), to(#63a7eb));
+    background-image: linear-gradient(#79A75B, #F3713C, #63a7eb);
   }
 }
 /*# sourceMappingURL=style.css.map */
